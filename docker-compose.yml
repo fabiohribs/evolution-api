@@ -29,6 +29,9 @@ services:
 
       # Chave de autenticação da API
       AUTHENTICATION_API_KEY: "${AUTHENTICATION_API_KEY}"
+      
+       # Resolução problema do QR code
+      CONFIG_SESSION_PHONE_VERSION: "${CONFIG_SESSION_PHONE_VERSION}"
 
       # ===== WebSocket / QR Code / RabbitMQ =====
       WEBSOCKET_ENABLED: "${WEBSOCKET_ENABLED}"
